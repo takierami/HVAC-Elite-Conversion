@@ -19,14 +19,14 @@ export function Footer({ onBookService }: FooterProps) {
               </p>
             </div>
             <div className="flex gap-4">
-              <Button 
+              <Button
                 size="lg"
                 onClick={onBookService}
                 className="bg-white hover:bg-gray-100 text-blue-600 font-semibold px-8"
               >
                 Book Now
               </Button>
-              <Button 
+              <Button
                 size="lg"
                 variant="outline"
                 className="border-2 border-white text-white hover:bg-white hover:text-blue-600 font-semibold px-8"
@@ -112,9 +112,9 @@ export function Footer({ onBookService }: FooterProps) {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5" />
                 <div>
-                  <div>123 Main Street</div>
-                  <div>Suite 100</div>
-                  <div>Your City, ST 12345</div>
+                  <div>261 Haford Street</div>
+                  <div>Suite 970</div>
+                  <div>San Francisco, CA 94107</div>
                 </div>
               </li>
             </ul>
